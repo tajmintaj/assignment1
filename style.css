@@ -212,31 +212,52 @@ a {
 .pro-card button:hover{
     background:#1b46d1;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
+
+.why-attend{
+    padding: 80px 0;
+    background-color: #f8f9fc;
+    text-align: center;
 }
-.cta{
-    padding:80px 0;
-    background:#6c62e0;
+
+.why-attend h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.why-text{
+    width: 650px;
+    margin: 0 auto 50px;
+    color: rgb(80, 106, 19);
+    font-size: 18px;
+}
+
+.why-parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.why-card{
+    width: 23%;
+    background: rgb(179, 195, 206);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+
+.why-card h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.why-card p{
+    color: #490606;
+    line-height: 1.6;
+}
+
+footer{
+    background:#0d1b2a;
     color:white;
     text-align:center;
-}
-
-.cta h2{
-    font-size:42px;
-    margin-bottom:20px;
-}
-
-.cta p{
-    width:600px;
-    margin:0 auto 30px;
-    font-size:18px;
-}
-
-.cta .common-btn{
-    background:white;
-    color:#181068;
+    padding:20px 0;
 }
